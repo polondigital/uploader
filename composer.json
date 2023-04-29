@@ -1,0 +1,32 @@
+{
+  "name": "polon/uploader",
+  "description": "It is a easy PHP upload manager for images, files and media in your application",
+  "keywords": [
+    "Polon",
+    "Polon",
+    "upload",
+    "image upload",
+    "file upload",
+    "media upload"
+  ],
+  "homepage": "http://www.polon.digital",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Victor",
+      "email": "polon@polon.digital",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.2",
+    "ext-gd": "*",
+    "ext-mbstring": "*",
+    "ext-exif": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Polon\\Uploader\\": "src"
+    }
+  }
+}
